@@ -205,7 +205,7 @@ git commit -m "first commit"
 git branch -M main
 ```
 
-`11:45` Связываем локальный репозиторий с репозиторием на GitHub (в качестве удаленного репозитория по умолчанию ставим созданный репозиторий на GitHub)
+`11:45` Связываем локальный репозиторий с репозиторием на GitHub
 ```sh
 git remote add origin https://github.com/magus1968/test_repo.git
 ```
