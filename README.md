@@ -5,4 +5,4 @@
 
 [markdown_instruction.md](https://github.com/magus1968/my-first-repo/blob/main/markdown_instruction.md "подсказки по языку Markdown") — подсказки по языку Markdown
 
-[lessons.md](https://github.com/magus1968/my-first-repo/blob/main/lessons.md "тайминг уроков 5 и 6") — пояснения / подсказки с таймингом уроков 5 *(Ильнар Шафигулин)* и 6 *(Денис Гуляев)*
+[lessons.md](https://github.com/magus1968/my-first-repo/blob/main/lessons-5-6.md "тайминг уроков 5 и 6") — пояснения / подсказки с таймингом уроков 5 *(Ильнар Шафигулин)* и 6 *(Денис Гуляев)*
