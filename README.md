@@ -1,8 +1,10 @@
 ## Мой первый репозиторий
 *в рамках факультативного курса "Введение в контроль версий"*
 #
-[cmd.md](https://github.com/magus1968/my-first-repo/blob/main/cmd.md "подсказки по командной строке и командам git") — подсказки по командной строке и командам git'а в рамках уроков с 1 по 4
+[cmd.md](https://github.com/magus1968/my-first-repo/blob/main/cmd.md "подсказки по командной строке и командам git") — подсказки по командной строке в рамках факультативного курса "Введение в контроль версий" *(GeekBrains, уроки с 1 по 4)* с дополнениями из основного курса "Data Science" *(Skillbox, модуль 11)*
 
-[markdown_base.md](https://github.com/magus1968/my-first-repo/blob/main/markdown_base.md "подсказки по языку Markdown") — подсказки по языку Markdown
+[markdown_base.md](https://github.com/magus1968/my-first-repo/blob/main/markdown_base.md "подсказки по языку Markdown") — немного подсказок по языку Markdown
 
-[lessons-5-6.md](https://github.com/magus1968/my-first-repo/blob/main/lessons-5-6.md "тайминг уроков 5 и 6") — конспект с *таймингом* лекции *(Ильнар Шафигулин)* и семинара *(Денис Гуляев)* по работе с удаленными репозиториями *(GitHub)*
+[git_howto_base.md](https://github.com/magus1968/my-first-repo/blob/main/git_howto_base.md) — основы Git *(GeekBrains, уроки с 1 по 4)*
+
+[lessons-5-6.md](https://github.com/magus1968/my-first-repo/blob/main/lessons-5-6.md "тайминг уроков 5 и 6") — углубляемся в контроль версий — конспект с *таймингом* лекции 5 *(Ильнар Шафигулин)* и семинара 6 *(Денис Гуляев)* по работе с удаленными репозиториями на *GitHub*
