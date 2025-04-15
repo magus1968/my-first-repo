@@ -7,4 +7,4 @@
 
 [git_howto_base.md](https://github.com/magus1968/my-first-repo/blob/main/git_howto_base.md) — основы Git *(GeekBrains, уроки с 1 по 4)*
 
-[lessons-5-6.md](https://github.com/magus1968/my-first-repo/blob/main/lessons-5-6.md "тайминг уроков 5 и 6") — углубляемся в контроль версий — конспект с *таймингом* лекции 5 *(Ильнар Шафигулин)* и семинара 6 *(Денис Гуляев)* по работе с удаленными репозиториями на *GitHub*
+[git_howto_advanced.md](https://github.com/magus1968/my-first-repo/blob/main/git_howto_advanced.md "тайминг уроков 5 и 6") — углубляемся в контроль версий — конспект с *таймингом* лекции 5 *(Ильнар Шафигулин)* и семинара 6 *(Денис Гуляев)* по работе с удаленными репозиториями на *GitHub*
