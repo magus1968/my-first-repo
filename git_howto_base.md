@@ -177,11 +177,3 @@ git merge <name_branch>
 git add .gitignore
 git commit -m "Добавили .gitignore файл"
 ```
-
----
----
-
-### # Специальный раздел для изучения конфликтов
-Создан в ветке `final_branch`
-
-Полезная статья про конфликты на Atlasian: [Конфликты слияния в Git](https://www.atlassian.com/ru/git/tutorials/using-branches/merge-conflicts)
