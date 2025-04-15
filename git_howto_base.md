@@ -65,7 +65,7 @@ git commit -m "Создали новый файл"
 # Первый коммит обычно указывают "Initial commit"
 ```
 
-> ПОМНИТЬ: [git add](https://www.atlassian.com/ru/git/tutorials/saving-changes) всегда идёт в связке с [git commit](https://www.atlassian.com/ru/git/tutorials/saving-changes/git-commit) :
+ПОМНИТЬ: [git add](https://www.atlassian.com/ru/git/tutorials/saving-changes) всегда идёт в связке с [git commit](https://www.atlassian.com/ru/git/tutorials/saving-changes/git-commit) :
 
 `git add filename` - вначале индексируем
 
