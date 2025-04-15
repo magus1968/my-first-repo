@@ -437,4 +437,8 @@ git config --global core.quotepath false
 ```
 После выполнения этой команды, при вызове git status получите нормальное имя файла на русском языке, а не что-то такое в формате nnn nnn
 
+### # Дополнительно по изучению Конфликтов
+
+Полезная статья про конфликты на Atlasian: [Конфликты слияния в Git](https://www.atlassian.com/ru/git/tutorials/using-branches/merge-conflicts)
+
 ### # Как переименовать user.name: локально в Git ?

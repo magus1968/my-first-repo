@@ -1,94 +1,15 @@
-# Подсказки по командной строке
+## Основы Git
 
-#### Quit - клавиша позволяющая выйти из какого-то отображения
-*PS: мне понадобилась после вывода большого количества log'a*
+* Лучшая инструкция по установке Git'a в Windows – на Selectel [ссылка](https://selectel.ru/blog/tutorials/how-to-install-git-to-windows/ "Как установить Git на Windows")
+* Установка **Git Bash** в качестве терминала по умолчанию в VSCode – на Stepik [ссылка](https://stepik.org/lesson/759385/step/3?unit=761401 "Git Bash для VS Code")
+
+#### Напоминалка двух полезных команд
 ```sh
 Q
-```
+# Quit - клавиша позволяющая выйти из какого-то отображения
 
-#### Команда очистки терминала
-```sh
 clear
-```
-
-#### Показать текущую директорию - путь
-```sh
-pwd
-```
-
-#### Отобразить листинг текущей директории
-```sh
-ls
-# Отображение листинга текущей директории. Аналог [ls .]
-# В отличии от [dir] вид папок будет визуально отличаться от вида файлов
-
-ls ..
-# Вывод листинга вышестоящей директории 
-
-ls -l
-# Вывод длинной (дополнительной) информации
-
-dir
-# Аналог [ls] - просто папки и файлы отображаются одинаково
-```
-
-#### Команда смены директории
-```sh
-cd folder_name
-# В отличие от Windows в Git Bush обычный слэш /
-# Используем TAB -- чтобы не вводить имя папки (файла) полностью
-
-cd ..
-# Быстрый переход на уровень вверх
-cd ../..
-# Переход на два каталога выше
-
-cd
-# Быстрый переход в домашнюю директорию
-```
-
-#### Создать папку с указанным именем
-```sh
-mkdir folder_name
-
-mkdir folder_name/new_folder
-# Создает вложенный каталог в [folder_name] находясь в текущем -- без необходимости перехода в [folder_name] 
-
-mkdir folder_name && cd folder_name
-# Две команды в одной строке: создание каталога и (&&) переход в него
-```
-
-#### Удаление файла
-```sh
-rm file_name
-
-del file_name   # Аналог [rm]
-```
- #### Удаление папки
- ```sh
-rm -r folder_name
-# ВАЖНО: [rm] удаляет папку и всё её содержимое навсегда -- корзины нет
-
-rm -rf .git
-# Удаляет локальный репозиторий (на GitHub остаётся)
- ```
-
-#### Вывести содержимое файла
-```sh
-cat file_name
-```
-
-#### Подсчитать слова и строки в файле
-```sh
-wc file_name
-```
-
-#### Канал `|` *(вертикальная черта)* - вывод одной команды подаёт на вход другой
-_Способ называется **Конвейер** - состыковка двух Unix-команд между собой через **канал**_
-```sh
-cat file_name | wc -l
-# Считает строки из вывода команды cat
-# Ключ [-l] заставляет команду [wc] считать строки 
+# Команда очистки терминала
 ```
 
 #### Просмотр версии Git
@@ -101,7 +22,7 @@ git --version
 git config --global user.name "Name Surname"
 git config --global user.email "your@email"
 ```
-Имя и Фамилия обязательно английскими буквами. Подробнее [git config](https://www.atlassian.com/ru/git/tutorials/setting-up-a-repository/git-config)
+> *Имя и Фамилия обязательно английскими буквами. Подробнее [git config](https://www.atlassian.com/ru/git/tutorials/setting-up-a-repository/git-config)*
 
 #### Просмотр имени пользователя и e-mail
 ```sh
@@ -141,11 +62,10 @@ git add filename.ext
 *Сохраняем наши изменения с параметром *-m* [message] и "комментируем изменения в кавычках". Т.е. сохраняем текущее состояние как **save** в игре*
 ```sh
 git commit -m "Создали новый файл"
-# Вариант "Initial commit"
+# Первый коммит обычно указывают "Initial commit"
 ```
----
 
-ПОМНИТЬ: [git add](https://www.atlassian.com/ru/git/tutorials/saving-changes) всегда идёт в связке с [git commit](https://www.atlassian.com/ru/git/tutorials/saving-changes/git-commit) :
+> ПОМНИТЬ: [git add](https://www.atlassian.com/ru/git/tutorials/saving-changes) всегда идёт в связке с [git commit](https://www.atlassian.com/ru/git/tutorials/saving-changes/git-commit) :
 
 `git add filename` - вначале индексируем
 
@@ -189,7 +109,7 @@ git log <name_branch>
 git log <name_branch> --oneline
 git log <name_branch> --oneline --graph
 ```
-находясь в одной ветке, посмотреть что в другой без переключения весьма удобно; подробнее [ссылка](https://www.atlassian.com/ru/git/tutorials/undoing-changes)
+Hаходясь в одной ветке, посмотреть что в другой без переключения весьма удобно; подробнее [ссылка](https://www.atlassian.com/ru/git/tutorials/undoing-changes)
 
 ### 6. Переход к состоянию по хэшу (идентификатору)
 ```sh
