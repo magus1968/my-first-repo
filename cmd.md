@@ -62,6 +62,11 @@ mkdir folder_name && cd folder_name
 # Две команды в одной строке: создание каталога и (&&) переход в него
 ```
 
+#### Создать файл
+```sh
+touch file_name.ext
+```
+
 #### Копирование (copy)
 ```sh
 cp file_name.ext file_name_2.ext
