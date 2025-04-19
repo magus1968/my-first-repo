@@ -1,5 +1,6 @@
 # Инструкция для работы с Markdown
-*В рамках факультативного курса на GeekBrains "Введение в контроль версий"*
+*Это в рамках факультативного курса на GeekBrains "Введение в контроль версий"*\
+А воообще рекомендую ознакомиться с [GitHub docs](https://docs-github-com.translate.goog/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax?_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=ru&_x_tr_pto=rq&_x_tr_hist=true) - понятно и профессионально.
 
 ## Выделение текста
 
@@ -39,11 +40,10 @@ Git для новичков [часть 2](https://habr.com/ru/articles/542616/ 
 
 Чтобы вставить изображение:
 
-! вначале поставить восклицательный знак, далее:
-
-в [ ] указывается текст - на случай, если изображение не загрузится
-
-в ( ) указывается имя файла из которого это изображение необходимо "достать". Изображение должно лежать в той же папке, что и файл .md
+! вначале поставить восклицательный знак, далее:\
+в [ ] указывается текст - на случай, если изображение не загрузится\
+в ( ) указывается имя файла из которого это изображение необходимо "достать".\
+Изображение должно лежать в той же папке, что и файл .md
 
 ![Тут изображение котика](cat.png "Изображение котика")
 
@@ -61,11 +61,13 @@ Git для новичков [часть 2](https://habr.com/ru/articles/542616/ 
   <summary><strong>Допустим это заголовок спойлера</strong></summary>
   А вот так
 
-  Смотри код
+  Смотри на GitUub docs [Organizing information with collapsed sections](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)
 </details>
 
----
+<details>
+  <summary><strong>А это мой первый pull request</strong></summary>
+  Вложил на память и как пример возможности убрать под спойлер изображение
+  
+  ![А это мой первый pull request](first_pull_request.png "Первый pull request")
 
-## А это мой первый pull request
-
-![А это мой первый pull request](first_pull_request.png "Первый pull request")
+</details>
